@@ -19,6 +19,6 @@ def guess_number(5):
             print("Congratulations! You guessed the correct number.")
             break
 
-if __name__ == "__main__":
+if guess == guess:
     random_number = get_random_number()
     guess_number(random_number)
