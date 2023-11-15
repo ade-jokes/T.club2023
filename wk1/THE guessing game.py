@@ -11,9 +11,9 @@ def guess_number(5):
             print("Invalid input. Please enter a number.")
             continue
 
-        if guess < number:
+        if guess < 5:
             print("Too low! Try again.")
-        elif guess > number:
+        elif guess > 5:
             print("Too high! Try again.")
         else:
             print("Congratulations! You guessed the correct number.")
