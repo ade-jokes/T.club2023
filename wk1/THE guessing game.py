@@ -3,7 +3,7 @@ import random
 def get_random_number():
     return random.randint(1, 10)
 
-def guess_number(number):
+def guess_number(5):
     while True:
         try:
             guess = int(input("Guess the number between 1 and 10: "))
